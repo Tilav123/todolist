@@ -1,0 +1,13 @@
+@media only screen and (max-width: 750px) {
+    .main_box{
+        flex-direction: column;
+    }
+    .category_card{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .right_aside{
+        width: 100%;
+    }
+}
