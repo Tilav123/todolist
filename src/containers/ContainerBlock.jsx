@@ -2,6 +2,8 @@ import { useState } from 'react'
 import React from 'react';
 import Task from '../components/Task';
 function ContainerBlock({date, DeleteTask,Executed,ChangeTitle, ChangeDate, minDate}) {
+    console.log(date);
+    
     return (
         <>
             <div className="category_card">

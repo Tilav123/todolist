@@ -13,7 +13,7 @@ function Task({ date_task, DeleteTask, Executed, ChangeTitle, ChangeDate, minDat
                 </div>
                 <div className="right_part_of_task">
                     <input type="date" className='icon change_date2' value={date_task.date} onChange={(e) => ChangeDate(date_task.id, e.target.value)} min={minDate} />
-                    <img src="./bin.png" alt="" className="icon" onClick={() => DeleteTask(date_task.id)} />
+                    <img src="/bin.png" alt="" className="icon" onClick={() => DeleteTask(date_task.id)} />
                 </div>
             </div>
         </>
